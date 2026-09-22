@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Environments and local configuration
+.venv/
+venv/
+env/
+.env
+
+# Training outputs and model weights
+models/
+checkpoints/
+work_dirs/
+results/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# Logs and generated files
+*.log
+*.out
+*.err
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.png
+*.jpg
+*.jpeg
+*.mp4
+
+# IDE/system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
